@@ -98,15 +98,20 @@ console.log(mul5(10))
 // goodbye("Ab",greet)
 
 
-const greet=(name)=> {
-      console.log("Hello",name)
-}
+const greet=(name)=> console.log("Hello",name)
 
-const fun1=(names,callback)=> {
-      callback(names)
-}
+const fun1=(names,callback)=>  callback(names)
 
 fun1("SANTOSH",greet)
+
+
+
+
+
+
+
+
+
 
 
 
